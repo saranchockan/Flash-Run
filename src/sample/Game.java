@@ -2,7 +2,6 @@ package sample;
 
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.settings.GameSettings;
-
 import java.util.Map;
 
 public class Game extends GameApplication {
