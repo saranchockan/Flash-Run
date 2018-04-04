@@ -6,13 +6,20 @@ import java.util.Map;
 
 public class Game extends GameApplication {
 
+
+
+
     /* Game Settings */
     @Override
     protected void initSettings(GameSettings gameSettings) {
         gameSettings.setWidth(600);
         gameSettings.setHeight(600);
-        gameSettings.setTitle("Basic Game App");
-        gameSettings.setVersion("0.1");
+        gameSettings.setTitle("Flash-Run");
+        gameSettings.setVersion("3.0");
+
+        /* Main Menu */
+        gameSettings.setMenuEnabled(true);
+        gameSettings.setSceneFactory(new MainMenu());
     }
 
     /* Builds and Loads Players into the Game */
@@ -45,6 +52,8 @@ public class Game extends GameApplication {
     }
 
     /* Launches the Game */
-    public static void main(String[]args){ launch(args);}
+    public static void main(String[]args){
+        launch(args);
+    }
 
 }
