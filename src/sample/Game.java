@@ -6,9 +6,6 @@ import java.util.Map;
 
 public class Game extends GameApplication {
 
-
-
-
     /* Game Settings */
     @Override
     protected void initSettings(GameSettings gameSettings) {

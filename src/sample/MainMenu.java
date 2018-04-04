@@ -7,6 +7,10 @@ import com.almasb.fxgl.scene.SceneFactory;
 import com.almasb.fxgl.scene.menu.FXGLDefaultMenu;
 import com.almasb.fxgl.scene.menu.MenuType;
 import javafx.scene.Node;
+import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
+import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import org.jetbrains.annotations.NotNull;
 
@@ -16,14 +20,32 @@ public class MainMenu extends SceneFactory {
     @Override
     public FXGLMenu newMainMenu(GameApplication app) {
         return new FXGLDefaultMenu(app,MenuType.MAIN_MENU){
+
+            /* Creates Flash-Run Background */
             @Override
             protected Node createBackground(double width, double height) {
                 return FXGL.getAssetLoader().loadTexture("Flash-Run_BG.jpg");
             }
 
+            /* Creates Flash-Run Title */
+
             @Override
             protected Node createTitleView(String title) {
-                return new Text("Flash-Run");
+                Text text = FXGL.getUIFactory().newText("Flash-Run",Color.LIGHTGOLDENRODYELLOW,50.0D);
+                Rectangle bg = new Rectangle(text.getLayoutBounds().getWidth() + 20.0D, 60.0D, (Paint)null);
+                StackPane titleRoot = new StackPane();
+                titleRoot.getChildren().addAll(new Node[]{bg, text});
+                titleRoot.setTranslateX((double)(this.app.getWidth() / 2) - (text.getLayoutBounds().getWidth() + 20.0D) / 2.0D);
+                titleRoot.setTranslateY(50.0D);
+                return titleRoot;
+            }
+
+            /* Creates Flash-Run Version */
+            @Override
+            protected Node createVersionView(String version) {
+                Text view = FXGL.getUIFactory().newText("Version 3.0");
+                view.setTranslateY((double)(this.app.getHeight() - 2));
+                return view;
             }
         };
     }
@@ -39,8 +61,19 @@ public class MainMenu extends SceneFactory {
 
             @Override
             protected Node createTitleView(String title) {
-                return new Text("Flash-Run");
+                Text text = FXGL.getUIFactory().newText("Flash-Run",Color.LIGHTGOLDENRODYELLOW,50.0D);
+                Rectangle bg = new Rectangle(text.getLayoutBounds().getWidth() + 20.0D, 60.0D, (Paint)null);
+
+                StackPane titleRoot = new StackPane();
+                titleRoot.getChildren().addAll(new Node[]{bg, text});
+                titleRoot.setTranslateX((double)(this.app.getWidth() / 2) - (text.getLayoutBounds().getWidth() + 20.0D) / 2.0D);
+                titleRoot.setTranslateY(50.0D);
+                return titleRoot;
             }
+
+
         };
     }
+
+
 }
