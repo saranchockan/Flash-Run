@@ -6,11 +6,12 @@ import java.util.Map;
 
 public class Game extends GameApplication {
 
+
     /* Game Settings */
     @Override
     protected void initSettings(GameSettings gameSettings) {
-        gameSettings.setWidth(600);
-        gameSettings.setHeight(600);
+        gameSettings.setWidth(1200);
+        gameSettings.setHeight(700);
         gameSettings.setTitle("Flash-Run");
         gameSettings.setVersion("3.0");
 
