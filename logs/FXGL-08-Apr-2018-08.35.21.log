@@ -1,0 +1,1090 @@
+08:28:40.046 [JavaFX Application Thread] DEBUG GameApplication      - Logger initialized
+08:28:40.059 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+08:28:40.270 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 1216.0 x 704.0
+08:28:40.271 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    1216.0 x 704.0
+08:28:40.271 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+08:28:40.920 [JavaFX Application Thread] DEBUG GameApplication      - Starting FXGL
+08:28:40.993 [FXGL Launcher Thread     ] INFO  Version              - FXGL-0.4.3
+08:28:40.996 [FXGL Launcher Thread     ] INFO  Version              - Source code and latest versions at: https://github.com/AlmasB/FXGL
+08:28:40.996 [FXGL Launcher Thread     ] INFO  Version              -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+08:28:40.998 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading FXGL system data
+08:28:41.006 [FXGL Launcher Thread     ] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+08:28:41.029 [FXGL Launcher Thread     ] DEBUG FS                   - Reading from: system/fxgl.bundle
+08:28:41.049 [FXGL Launcher Thread     ] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+08:28:41.049 [FXGL Launcher Thread     ] DEBUG Bundle               - Logging bundle: FXGL
+08:28:41.051 [FXGL Launcher Thread     ] DEBUG Bundle               - FXGL.offline.timer.version.check=2018-04-03T17:47:05.133
+08:28:41.179 [FXGL Launcher Thread     ] DEBUG GameApplication      - FXGL started
+08:28:41.179 [FXGL Launcher Thread     ] DEBUG GameApplication      - Logging game settings
+Title: Flash-Run
+Version: 3.0
+Width: 1216
+Height: 704
+Fullscreen: false
+Intro: false
+Menus: true
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class sample.MainMenu
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+Notification Service: class com.almasb.fxgl.gameplay.notification.XboxNotificationView
+Exception Handler: class com.almasb.fxgl.app.FXGLExceptionHandler
+08:28:41.181 [FXGL Launcher Thread     ] DEBUG GameApplication      - Configuring GameApplication
+08:28:41.182 [FXGL Launcher Thread     ] DEBUG GameApplication      - Initializing state machine and application states
+08:28:41.195 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+08:28:41.242 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+08:28:41.246 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+08:28:41.266 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/core/notification.wav
+08:28:41.352 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/select.wav
+08:28:41.354 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/back.wav
+08:28:41.357 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/press.wav
+08:28:41.361 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+08:28:41.388 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+08:28:41.399 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+08:28:41.399 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/icons/fxgl_icon.png
+08:28:41.444 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+08:28:41.488 [FXGL Launcher Thread     ] DEBUG FXGL.GameScene       - Game scene initialized: 1216x704
+08:28:41.494 [FXGL Launcher Thread     ] DEBUG FXGL.GameWorld       - Game world initialized
+08:28:41.602 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=704, physics.ppm=50.0
+08:28:41.627 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+08:28:41.630 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/textures/Flash-Run_BG_2.png
+08:28:41.711 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createMenuBodyMainMenu()
+08:28:41.723 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/english.properties
+08:28:41.725 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.725 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createOptionsMenu()
+08:28:41.726 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.728 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.728 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.729 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.730 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.731 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.734 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.735 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.738 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+08:28:41.740 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Flash-Run_BG_2.png
+08:28:41.742 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createMenuBodyGameMenu()
+08:28:41.743 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.744 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.744 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createOptionsMenu()
+08:28:41.745 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.745 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.745 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.745 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.746 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.747 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.748 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+08:28:41.760 [FXGL Launcher Thread     ] INFO  GameApplication      - Game configuration took:  0.579 sec
+08:28:41.763 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+08:28:41.833 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (0.0, 22.0)
+08:28:41.834 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 1216.0 x 704.0
+08:28:41.834 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+08:28:41.834 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1216.0 x 704.0
+08:28:41.834 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1216.0 x 726.0
+08:28:41.834 [JavaFX Application Thread] DEBUG GameApplication      - Running preInit()
+08:28:41.836 [JavaFX Application Thread] DEBUG AnnotationParser     - Main app package name: sample
+08:28:41.993 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetAchievementStore: []
+08:28:42.028 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+08:28:42.028 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - CTRL+0
+08:28:42.029 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+08:28:42.030 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/sounds/flash-theme.wav
+08:28:42.192 [JavaFX Application Thread] DEBUG MenuEventHandler     - generateDefaultProfile()
+08:28:42.192 [JavaFX Application Thread] DEBUG MenuEventHandler     - Creating default profile
+08:28:42.193 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+08:28:42.194 [JavaFX Application Thread] DEBUG AudioPlayer          - Saving data to profile
+08:28:42.195 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+08:28:42.195 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+08:28:42.195 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+08:28:42.195 [JavaFX Application Thread] DEBUG Input                - Saving data to profile
+08:28:42.195 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+08:28:42.196 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+08:28:42.196 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+08:28:42.196 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+08:28:42.200 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+08:28:42.200 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=0
+08:28:42.201 [JavaFX Application Thread] DEBUG AchievementManager   - Saving data to profile
+08:28:42.201 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+08:28:42.262 [JavaFX Application Thread] DEBUG GameApplication      - Starting main loop
+08:28:42.282 [JavaFX Application Thread] DEBUG StartupState         - STARTUP
+08:28:42.282 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:42.344 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> MainMenuState
+08:28:42.356 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Checking profiles dir: profiles/
+08:28:42.357 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading profile names
+08:28:42.367 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+08:28:42.374 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+08:28:42.374 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:42.374 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+08:28:42.381 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadDirectoryNamesTask(./profiles/, false)
+08:28:42.619 [JavaFX Application Thread] DEBUG IOTask               - succeed(): Dismissing dialog
+08:28:42.619 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+08:28:42.619 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:42.621 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+08:28:42.621 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: loadDirectoryNamesTask(./profiles/, false)
+08:28:42.625 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+08:28:42.625 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:42.625 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+08:28:43.654 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+08:28:43.654 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:43.656 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+08:28:43.656 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading profile: Saran
+08:28:43.658 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+08:28:43.660 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+08:28:43.660 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:43.661 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+08:28:43.663 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: readDataTask(./profiles/Saran/user.profile)
+08:28:43.663 [FXGL Background Thread 1 ] DEBUG FS                   - Reading from: ./profiles/Saran/user.profile
+08:28:43.682 [JavaFX Application Thread] DEBUG IOTask               - succeed(): Dismissing dialog
+08:28:43.682 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+08:28:43.682 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:43.683 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+08:28:43.683 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: readDataTask(./profiles/Saran/user.profile)
+08:28:43.684 [JavaFX Application Thread] DEBUG EventBus             - Firing event: LoadEvent[type=LOAD_PROFILE]
+08:28:43.684 [JavaFX Application Thread] DEBUG AudioPlayer          - Loading data from profile
+08:28:43.684 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+08:28:43.684 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+08:28:43.684 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+08:28:43.685 [JavaFX Application Thread] DEBUG Input                - Loading data from profile
+08:28:43.685 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+08:28:43.685 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+08:28:43.685 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+08:28:43.685 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+08:28:43.685 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+08:28:43.686 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=174090323968
+08:28:43.686 [JavaFX Application Thread] DEBUG AchievementManager   - Loading data from profile
+08:28:43.686 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+08:28:43.687 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading last modified save file
+08:28:43.687 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading save files
+08:28:43.692 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+08:28:43.695 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+08:28:43.695 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:43.695 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+08:28:43.697 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Saran/saves/, true, [FileExtension(extension=.sav)])
+08:28:43.697 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Saran/saves/, true, [FileExtension(extension=.sav)])
+08:28:43.697 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Saran/saves/, true, [FileExtension(extension=.sav)])
+08:28:43.701 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: readSaveFiles
+08:28:43.703 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: findLastSave
+08:28:43.719 [JavaFX Application Thread] DEBUG IOTask               - fail(): Dismissing dialog
+08:28:43.719 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+08:28:43.719 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:43.720 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+08:28:43.720 [JavaFX Application Thread] WARN  IOTask               - Task failed: loadFileNamesTask(./profiles/Saran/saves/, true, [FileExtension(extension=.sav)]) Error: java.io.FileNotFoundException: No save files found
+08:28:44.512 [JavaFX Application Thread] DEBUG FXGL.Menu            - fireNewGame()
+08:28:44.512 [JavaFX Application Thread] DEBUG GameApplication      - Starting new game
+08:28:44.512 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:28:44.523 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> LoadingState
+08:28:44.525 [JavaFX Application Thread] DEBUG AnnotationParser     - Main app package name: sample
+08:28:44.525 [JavaFX Application Thread] DEBUG InitAppTask          - Parsing annotations
+08:28:44.558 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetEventHandler: []
+08:28:44.559 [JavaFX Application Thread] DEBUG AnnotationParser     - @AddCollisionHandler: []
+08:28:44.560 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetEntityFactory: []
+08:28:44.561 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Clearing previous game
+08:28:44.561 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Clearing game world
+08:28:44.561 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Clearing physics world
+08:28:44.565 [FXGL Background Thread 1 ] DEBUG FXGL.GameScene       - Clearing game scene
+08:28:44.566 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Assets
+08:28:44.567 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+08:28:44.569 [FXGL Background Thread 1 ] DEBUG AudioPlayer          - Stopping all sounds
+08:28:44.638 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/json/SpeedForce.json
+08:28:44.938 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Clearing removable entities
+08:28:44.938 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Setting level from map
+08:28:44.976 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/lightning-maze.jpg
+08:28:45.010 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.010 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.010 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.011 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.011 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.011 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.011 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.012 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.012 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.012 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.013 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.013 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.013 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.013 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.013 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.014 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.014 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.015 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.015 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.015 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.015 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.015 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.016 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.016 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.016 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.016 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.016 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.016 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.017 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.017 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.017 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.017 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.017 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.018 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.018 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.019 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.019 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.019 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.020 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.020 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.020 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.020 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.021 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.021 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.021 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.021 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.022 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.022 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.022 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.023 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.023 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.023 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.023 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.024 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.024 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.024 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.025 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.025 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.025 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.026 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.026 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.026 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.026 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.027 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.027 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.027 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.027 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.028 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.028 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.028 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.028 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.028 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.029 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.029 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.029 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.029 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/maze --2.jpg
+08:28:45.034 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.034 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.034 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.035 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.035 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.035 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.035 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.035 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.036 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.037 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.038 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.039 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.040 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.040 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.040 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.040 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.040 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.040 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.041 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.042 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.043 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.043 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.043 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.043 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.043 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.043 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.044 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.044 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.044 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.044 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.044 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.044 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.045 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.045 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.045 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.045 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.045 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.045 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.045 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.046 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.047 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.048 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.049 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.049 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.049 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.049 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.049 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.049 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.050 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.051 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.051 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.051 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.051 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.051 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.051 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.052 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.052 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.052 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.052 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.052 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.053 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.053 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.053 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.053 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.053 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.053 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.054 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.054 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.054 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.054 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.055 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.055 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.055 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.055 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.055 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.056 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.056 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.056 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.056 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.056 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.056 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.057 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.057 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.057 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.057 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.057 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.057 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.058 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.058 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.058 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.059 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.059 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.059 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.059 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.059 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.060 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.060 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.060 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.060 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.060 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.060 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.061 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.061 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.061 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.061 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.061 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.062 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.062 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.062 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.062 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.062 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.062 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.063 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.063 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.063 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.063 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.064 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.064 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.064 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.064 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.064 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.065 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.066 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.067 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.067 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.067 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.067 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.067 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.067 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.067 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.068 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.069 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.069 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.069 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.069 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.069 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.070 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.070 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.070 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.070 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.070 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.070 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.070 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.071 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.071 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.071 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.072 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.073 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.073 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.073 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.073 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.073 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.074 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.074 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.074 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.074 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.075 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.075 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.075 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.075 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.076 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.076 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.076 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.076 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.076 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.076 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.076 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.077 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.078 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.079 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.080 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.081 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.082 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.083 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.084 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.085 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.085 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.085 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.085 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.085 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.085 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.086 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.087 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.089 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.090 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.090 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.090 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.090 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.090 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.090 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.090 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.090 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.091 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.091 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.091 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.091 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.092 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.093 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.094 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.094 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.094 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.094 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.094 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.094 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.094 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.095 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.095 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.095 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.095 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.095 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.096 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.097 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.099 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.099 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.099 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.099 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.099 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.099 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.099 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.100 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.101 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.102 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.102 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.102 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.102 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.102 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.103 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.104 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.105 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.106 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.107 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.108 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.108 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.108 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.108 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.109 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.110 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.111 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.112 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.113 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.114 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.115 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.116 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.117 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.118 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.119 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.120 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/maze --2.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.121 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.122 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.123 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.124 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.125 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.125 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.125 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.125 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.125 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.126 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.128 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/lightning-maze.jpg
+08:28:45.130 [FXGL Background Thread 1 ] DEBUG FXGL.GameScene       - Creating render group for layer: BACKGROUND(1000)
+08:28:45.140 [JavaFX Application Thread] FATAL GameApplication      - Uncaught Exception:
+
+Fatal exception occurred: java.lang.IllegalStateException : EntityFactory was not set!
+E: com.almasb.fxgl.entity.GameWorld.spawn(GameWorld.java:403)
+E: com.almasb.fxgl.entity.GameWorld.lambda$setLevelFromMap$5(GameWorld.java:297)
+E: java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+E: java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+E: java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+E: java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+E: java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+E: java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+E: java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+E: java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+E: java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+E: java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+E: java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+E: java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+E: com.almasb.fxgl.entity.GameWorld.setLevelFromMap(GameWorld.java:297)
+E: com.almasb.fxgl.entity.GameWorld.setLevelFromMap(GameWorld.java:273)
+E: sample.Game.initGame(Game.java:40)
+E: com.almasb.fxgl.app.LoadingState$InitAppTask.initGame(AppStates.kt:200)
+E: com.almasb.fxgl.app.LoadingState$InitAppTask.call(AppStates.kt:160)
+E: com.almasb.fxgl.app.LoadingState$InitAppTask.call(AppStates.kt:132)
+E: javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+E: java.util.concurrent.FutureTask.run(FutureTask.java:266)
+E: java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+E: java.util.concurrent.FutureTask.run(FutureTask.java:266)
+E: java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+E: java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+E: java.lang.Thread.run(Thread.java:745)
+
+08:28:45.140 [JavaFX Application Thread] FATAL GameApplication      - Application will now exit
+08:28:45.140 [JavaFX Application Thread] DEBUG GameApplication      - Stopping main loop
+08:35:21.889 [JavaFX Application Thread] DEBUG GameApplication      - Exiting game application
+08:35:21.891 [JavaFX Application Thread] DEBUG MenuEventHandler     - Creating default profile
+08:35:21.891 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+08:35:21.892 [JavaFX Application Thread] DEBUG AudioPlayer          - Saving data to profile
+08:35:21.892 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+08:35:21.892 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+08:35:21.892 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+08:35:21.892 [JavaFX Application Thread] DEBUG Input                - Saving data to profile
+08:35:21.892 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+08:35:21.892 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+08:35:21.892 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+08:35:21.892 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+08:35:21.893 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+08:35:21.893 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=174090323968
+08:35:21.893 [JavaFX Application Thread] DEBUG AchievementManager   - Saving data to profile
+08:35:21.893 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+08:35:21.893 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Saving profile: Saran
+08:35:21.896 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(./profiles/Saran/user.profile)
+08:35:21.896 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(./profiles/Saran/user.profile)
+08:35:21.901 [JavaFX Application Thread] DEBUG FS                   - Writing to: ./profiles/Saran/user.profile
+08:35:21.908 [JavaFX Application Thread] DEBUG IOTask               - Executing task: checkSavesDir(./profiles/Saran/saves/)
+08:35:21.908 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(./profiles/Saran/user.profile)
+08:35:21.908 [JavaFX Application Thread] DEBUG GameApplication      - Shutting down background threads
+08:35:21.908 [JavaFX Application Thread] DEBUG GameApplication      - Exiting FXGL
+08:35:21.908 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+08:35:21.909 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+08:35:21.909 [JavaFX Application Thread] DEBUG FS                   - Writing to: system/fxgl.bundle
+08:35:21.913 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
+08:35:21.913 [JavaFX Application Thread] DEBUG GameApplication      - Closing logger and exiting JavaFX

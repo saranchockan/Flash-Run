@@ -8,10 +8,6 @@ import com.almasb.fxgl.scene.SceneFactory;
 import com.almasb.fxgl.scene.menu.FXGLDefaultMenu;
 import com.almasb.fxgl.scene.menu.MenuType;
 import javafx.scene.Node;
-import javafx.scene.layout.StackPane;
-import javafx.scene.paint.Color;
-import javafx.scene.paint.Paint;
-import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import org.jetbrains.annotations.NotNull;
 
@@ -25,12 +21,12 @@ public class MainMenu extends SceneFactory {
             /* Creates Flash-Run Background */
             @Override
             protected Node createBackground(double width, double height) {
-                return FXGL.getAssetLoader().loadTexture("Flash-Run_BG_3.jpg");
+                return FXGL.getAssetLoader().loadTexture("Flash-Run_BG_2.png");
             }
 
-            /* Creates Flash-Run Title */
-
             /*
+            Creates Flash-Run Title
+
             @Override
             protected Node createTitleView(String title) {
                 //-- Color: BLACK OR LIGHTGOLDENRODYELLOW
@@ -71,7 +67,7 @@ public class MainMenu extends SceneFactory {
         return new FXGLDefaultMenu(app, MenuType.GAME_MENU){
             @Override
             protected Node createBackground(double width, double height) {
-                return FXGL.getAssetLoader().loadTexture("Flash-Run_BG_3.jpg");
+                return FXGL.getAssetLoader().loadTexture("Flash-Run_BG_2.png");
             }
 
             /*
