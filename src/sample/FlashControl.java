@@ -1,10 +1,9 @@
+
 package sample;
 
 import com.almasb.fxgl.core.math.FXGLMath;
 import com.almasb.fxgl.entity.Control;
-import com.almasb.fxgl.entity.Entities;
 import com.almasb.fxgl.entity.Entity;
-import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.texture.AnimatedTexture;
 import com.almasb.fxgl.texture.AnimationChannel;
 import javafx.util.Duration;
@@ -17,10 +16,12 @@ public class FlashControl extends Control {
 
     public FlashControl(){
 
-        flashIdle = new AnimationChannel("flash sprite --steady.png", 16, 3200/16, 236, Duration.seconds(1),0,15);
+        //-- Creates the animated sprite
+
+        flashIdle = new AnimationChannel("flash sprite --steady.png", 16, 1315/16, 97, Duration.seconds(1),0,15);
         flashRun = new AnimationChannel("flash sprite-running.png", 10, 1370/10, 97, Duration.seconds(1),0,9);
 
-        texture = new AnimatedTexture(flashRun);
+        texture = new AnimatedTexture(flashIdle);
     }
 
     @Override

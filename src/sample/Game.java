@@ -2,7 +2,6 @@ package sample;
 
 
 import com.almasb.fxgl.app.GameApplication;
-import com.almasb.fxgl.entity.Entities;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.settings.GameSettings;
@@ -12,12 +11,7 @@ import java.util.Map;
 
 public class Game extends GameApplication {
 
-
-    public enum EntityType{
-        SPEEDSTER, TIMEWRAITHS
-    }
-
-    /* Game Settings */
+    //-- Game Settings
     @Override
     protected void initSettings(GameSettings gameSettings) {
 
@@ -34,7 +28,7 @@ public class Game extends GameApplication {
     }
 
 
-    /* Builds and Loads Players into the Game */
+    //-- Builds and Loads Players into the Game
     private Entity flash;
 
     @Override
@@ -48,7 +42,7 @@ public class Game extends GameApplication {
         flash = getGameWorld().spawn("flash",50,50);
     }
 
-    /* Implements Mouse and Keyboard Input into the Game */
+    //-- Implements Mouse and Keyboard Input into the Game
 
     @Override
     protected void initInput() {
@@ -95,24 +89,24 @@ public class Game extends GameApplication {
 
     }
 
-    /* Implements UI Elements into the Game */
+    //-- Implements UI Elements into the Game
     @Override
     protected void initUI() {
 
     }
 
-    /* Global Variables in the Game put into a Map */
+    //-- Global Variables in the Game put into a Map
     @Override
     protected void initGameVars(Map<String, Object> vars) {
 
     }
-    /* Implements Physics into the Game */
+    //-- Implements Physics into the Game
     @Override
     protected void initPhysics() {
 
     }
 
-    /* Launches the Game */
+    //-- Launches the Game
     public static void main(String[]args){
         launch(args);
     }
