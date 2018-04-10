@@ -13,9 +13,7 @@ public class FlashControl extends Control {
 
     private AnimatedTexture texture;
     private AnimationChannel flashIdle, flashRun;
-
     private int speed = 0;
-
 
     public FlashControl(){
 
@@ -33,6 +31,7 @@ public class FlashControl extends Control {
     @Override
     public void onUpdate(Entity entity, double v) {
         entity.translateX(speed * v);
+        entity.translateY(speed * v);
 
         if(speed==0){
             texture.setAnimationChannel(flashIdle);
@@ -57,14 +56,14 @@ public class FlashControl extends Control {
     public void right(){
         speed = 20;
         getEntity().setScaleX(1);
-
     }
 
     public void up(){
+        speed = -20;
     }
 
     public void down(){
-
+        speed = 20;
     }
 
 }
