@@ -24,22 +24,6 @@ public class MainMenu extends SceneFactory {
                 return FXGL.getAssetLoader().loadTexture("Flash-Run_BG_2.png");
             }
 
-            /*
-            Creates Flash-Run Title
-
-            @Override
-            protected Node createTitleView(String title) {
-                //-- Color: BLACK OR LIGHTGOLDENRODYELLOW
-                Text text = FXGL.getUIFactory().newText("Flash-Run",Color.BLACK,50.0D);
-                Rectangle bg = new Rectangle(text.getLayoutBounds().getWidth() + 20.0D, 60.0D, (Paint)null);
-                StackPane titleRoot = new StackPane();
-                titleRoot.getChildren().addAll(new Node[]{bg, text});
-                titleRoot.setTranslateX((double)(this.app.getWidth() / 2) - (text.getLayoutBounds().getWidth() + 20.0D) / 2.0D);
-                titleRoot.setTranslateY(50.0D);
-                return titleRoot;
-            }
-            */
-
             @Override
             protected Node createTitleView(String title) {
                 return new Text("");
@@ -69,19 +53,6 @@ public class MainMenu extends SceneFactory {
             protected Node createBackground(double width, double height) {
                 return FXGL.getAssetLoader().loadTexture("Flash-Run_BG_2.png");
             }
-
-            /*
-            @Override
-            protected Node createTitleView(String title) {
-                Text text = FXGL.getUIFactory().newText("Flash-Run",Color.BLACK,50.0D);
-                Rectangle bg = new Rectangle(text.getLayoutBounds().getWidth() + 20.0D, 60.0D, (Paint)null);
-                StackPane titleRoot = new StackPane();
-                titleRoot.getChildren().addAll(new Node[]{bg, text});
-                titleRoot.setTranslateX((double)(this.app.getWidth() / 2) - (text.getLayoutBounds().getWidth() + 20.0D) / 2.0D);
-                titleRoot.setTranslateY(50.0D);
-                return titleRoot;
-            }
-            */
 
             @Override
             protected Node createTitleView(String title) {
