@@ -23,6 +23,8 @@ public class FlashFactory implements EntityFactory {
     @Spawns("flash")
     public Entity newFlash(SpawnData data){
 
+
+
         return Entities.builder()
                 .from(data)
                 .bbox(new HitBox(BoundingShape.box(30,30)))

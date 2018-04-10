@@ -59,7 +59,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).left();
-                flash.translateX(-5);
+                flash.translateX(-20);
             }
 
         },KeyCode.A);
@@ -68,7 +68,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).right();
-                flash.translateX(5);
+                flash.translateX(20);
 
             }
 
@@ -78,7 +78,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).up();
-                flash.translateY(-5);
+                flash.translateY(-20);
 
             }
 
@@ -88,7 +88,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).down();
-                flash.translateY(5);
+                flash.translateY(20);
             }
 
         },KeyCode.S);
