@@ -44,19 +44,19 @@ public class ReverseFlashControl extends Control {
 
 
     public void left(){
-        speed = -20;
+        speed = -40;
         getEntity().setScaleX(-1);
     }
 
     public void right(){
-        speed = 20;
+        speed = 40;
         getEntity().setScaleX(1);
     }
 
-    public void up(){ speed = -20; }
+    public void up(){ speed = -40; }
 
     public void down(){
-        speed = 20;
+        speed = 40;
     }
 
 }

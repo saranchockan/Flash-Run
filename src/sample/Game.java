@@ -99,7 +99,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).left();
-                reverseFlash.translateX(-20);
+                reverseFlash.translateX(-40);
             }
 
         },KeyCode.LEFT);
@@ -108,7 +108,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).right();
-                reverseFlash.translateX(20);
+                reverseFlash.translateX(40);
 
             }
 
@@ -118,7 +118,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).up();
-                reverseFlash.translateY(-20);
+                reverseFlash.translateY(-40);
 
             }
 
@@ -128,7 +128,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).down();
-                reverseFlash.translateY(20);
+                reverseFlash.translateY(40);
             }
 
         },KeyCode.DOWN);
