@@ -19,25 +19,19 @@ public class ReverseFlashControl extends Control {
         //-- Creates the animated sprite
 
         reverseflashIdle = new AnimationChannel("reverse flash sprite --steady.png", 7, 1346/7, 170, Duration.seconds(1),0,6);
-        reverseflashRun = new AnimationChannel("reverse flash sprite --steady.png", 7, 1346/7, 170, Duration.seconds(1),0,6);
-
+        reverseflashRun = new AnimationChannel("reverse flash sprite-running .png", 7, 2268/7, 154, Duration.seconds(1),0,6);
         texture = new AnimatedTexture(reverseflashIdle);
     }
 
     @Override
-    public void onAdded(Entity entity){
-        entity.setView(texture);
-    }
+    public void onAdded(Entity entity){ entity.setView(texture); }
 
     @Override
     public void onUpdate(Entity entity, double v) {
-        entity.translateX(speed * v);
-        entity.translateY(speed * v);
 
         if(speed==0){
             texture.setAnimationChannel(reverseflashIdle);
         }
-
         else{
             texture.setAnimationChannel(reverseflashRun);
             speed = (int) (speed * 0.4);

@@ -53,7 +53,7 @@ public class Game extends GameApplication {
     @Override
     protected void initInput() {
 
-        //-- getAudioPlayer().playSound("flash-theme.wav");
+        getAudioPlayer().playSound("flash-theme.wav");
 
         getInput().addAction(new UserAction("F_Left") {
             @Override

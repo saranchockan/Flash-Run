@@ -31,8 +31,6 @@ public class FlashFactory implements EntityFactory {
 
     }
 
-
-
     //-- Creates the reverse flash Entity
     @Spawns("reverse-flash")
     public Entity newReverse(SpawnData data){

@@ -20,7 +20,6 @@ public class FlashControl extends Control {
 
         flashIdle = new AnimationChannel("flash sprite --steady.png", 16, 1315/16, 97, Duration.seconds(1),0,15);
         flashRun = new AnimationChannel("flash sprite-running.png", 10, 1370/10, 97, Duration.seconds(1),0,9);
-
         texture = new AnimatedTexture(flashIdle);
     }
 
@@ -31,8 +30,6 @@ public class FlashControl extends Control {
 
     @Override
     public void onUpdate(Entity entity, double v) {
-        entity.translateX(speed * v);
-        entity.translateY(speed * v);
 
         if(speed==0){
             texture.setAnimationChannel(flashIdle);
