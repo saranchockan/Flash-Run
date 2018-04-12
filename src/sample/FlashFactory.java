@@ -31,4 +31,18 @@ public class FlashFactory implements EntityFactory {
 
     }
 
+
+
+    //-- Creates the reverse flash Entity
+    @Spawns("reverse-flash")
+    public Entity newReverse(SpawnData data){
+        return Entities.builder()
+            .from(data)
+            .bbox(new HitBox(BoundingShape.box(30,30)))
+            .with(new ReverseFlashControl())
+            .build();
+
+    }
+
+
 }
