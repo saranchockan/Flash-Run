@@ -4,6 +4,7 @@ package sample;
 import com.almasb.fxgl.core.math.FXGLMath;
 import com.almasb.fxgl.entity.Control;
 import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.texture.AnimatedTexture;
 import com.almasb.fxgl.texture.AnimationChannel;
 import javafx.util.Duration;
@@ -13,6 +14,8 @@ public class FlashControl extends Control {
     private AnimatedTexture texture;
     private AnimationChannel flashIdle, flashRun;
     private int speed = 0;
+
+    PhysicsComponent physics;
 
     public FlashControl(){
 
@@ -33,6 +36,7 @@ public class FlashControl extends Control {
 
         if(speed==0){
             texture.setAnimationChannel(flashIdle);
+            physics.setVelocityX(0);
         }
 
         else{
@@ -47,21 +51,25 @@ public class FlashControl extends Control {
 
 
     public void left(){
-        speed = -20;
+        speed = -700;
+        physics.setVelocityX(-700);
         getEntity().setScaleX(-1);
     }
 
     public void right(){
-        speed = 20;
+        speed = 700;
+        physics.setVelocityX(700);
         getEntity().setScaleX(1);
     }
 
     public void up(){
-        speed = -20;
+        speed = -700;
+        physics.setVelocityY(-300);
     }
 
     public void down(){
-        speed = 20;
+        speed = 700;
+        physics.setVelocityY(300);
     }
 
 }
