@@ -2,14 +2,11 @@ package sample;
 
 
 import com.almasb.fxgl.app.GameApplication;
-import com.almasb.fxgl.entity.Entities;
 import com.almasb.fxgl.entity.Entity;
-import com.almasb.fxgl.entity.component.CollidableComponent;
 import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.settings.GameSettings;
 import javafx.scene.input.KeyCode;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
+
 
 import java.util.Map;
 
@@ -40,9 +37,6 @@ public class Game extends GameApplication {
     @Override
     protected void initGame(){
 
-        //-- player test
-
-
         //-- Stops the intro music
         getAudioPlayer().stopAllSounds();
 
@@ -52,6 +46,8 @@ public class Game extends GameApplication {
         //-- Spawns the entities into the game
         flash = getGameWorld().spawn("flash",50,50);
         reverseFlash = getGameWorld().spawn("reverse-flash",200,200);
+
+
 
     }
 
@@ -66,6 +62,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).left();
+                flash.translateX(-20);
             }
 
         },KeyCode.A);
@@ -74,7 +71,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).right();
-
+                flash.translateX(20);
             }
 
         },KeyCode.D);
@@ -83,6 +80,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).up();
+                flash.translateY(-20);
 
             }
 
@@ -92,6 +90,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).down();
+                flash.translateY(20);
             }
 
         },KeyCode.S);
@@ -102,6 +101,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).left();
+                reverseFlash.translateX(-40);
             }
 
         },KeyCode.LEFT);
@@ -110,7 +110,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).right();
-
+                reverseFlash.translateX(40);
             }
 
         },KeyCode.RIGHT);
@@ -119,7 +119,7 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).up();
-
+                reverseFlash.translateY(-40);
             }
 
         },KeyCode.UP);
@@ -127,7 +127,9 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("Rf_Down") {
             @Override
             protected void onAction(){
+
                 reverseFlash.getControl(ReverseFlashControl.class).down();
+                reverseFlash.translateY(40);
             }
 
         },KeyCode.DOWN);
