@@ -2,10 +2,14 @@ package sample;
 
 
 import com.almasb.fxgl.app.GameApplication;
+import com.almasb.fxgl.entity.Entities;
 import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.entity.component.CollidableComponent;
 import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.settings.GameSettings;
 import javafx.scene.input.KeyCode;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 
 
 import java.util.Map;
@@ -36,7 +40,6 @@ public class Game extends GameApplication {
 
     @Override
     protected void initGame(){
-
         //-- Stops the intro music
         getAudioPlayer().stopAllSounds();
 
@@ -46,9 +49,6 @@ public class Game extends GameApplication {
         //-- Spawns the entities into the game
         flash = getGameWorld().spawn("flash",50,50);
         reverseFlash = getGameWorld().spawn("reverse-flash",200,200);
-
-
-
     }
 
     //-- Implements Mouse and Keyboard Input into the Game
