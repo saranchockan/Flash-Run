@@ -1,6 +1,4 @@
 package sample;
-
-
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.input.UserAction;
@@ -14,8 +12,8 @@ public class Game extends GameApplication {
     @Override
     protected void initSettings(GameSettings gameSettings) {
 
-        gameSettings.setWidth(1216);
-        gameSettings.setHeight(704);
+        gameSettings.setWidth(1184);
+        gameSettings.setHeight(672);
 
         /* Main Menu */
         gameSettings.setMenuEnabled(true);

@@ -12,7 +12,7 @@ import com.almasb.fxgl.physics.box2d.dynamics.BodyType;
 public class FlashFactory implements EntityFactory {
 
     //-- Creates the maze Entity
-    @Spawns("maze")
+    @Spawns("platform")
     public Entity newMaze(SpawnData data){
         return Entities.builder()
                 .from(data)
