@@ -30,7 +30,7 @@ public class FlashFactory implements EntityFactory {
         return Entities.builder()
                 .from(data)
                 .type(FlashType.SPEEDSTER)
-                .bbox(new HitBox(BoundingShape.box(85,95)))
+                .bbox(new HitBox(BoundingShape.box(658/16,49)))
                 .with(physics)
                 .with(new FlashControl())
                 .build();
@@ -44,7 +44,7 @@ public class FlashFactory implements EntityFactory {
         return Entities.builder()
                 .type(FlashType.SPEEDSTER)
                 .from(data)
-                .bbox(new HitBox(BoundingShape.box(120,130)))
+                .bbox(new HitBox(BoundingShape.box(673/7,85)))
                 .with(physics)
                 .with(new ReverseFlashControl())
                 .build();
