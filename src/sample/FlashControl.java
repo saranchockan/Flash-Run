@@ -69,12 +69,12 @@ public class FlashControl extends Control {
     }
 
     public void up(){
-        speed = -700;
+        speed = -0;
         physics.setVelocityY(-300);
     }
 
     public void down(){
-        speed = 700;
+        speed = 0;
         physics.setVelocityY(300);
     }
 

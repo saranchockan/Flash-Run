@@ -67,12 +67,12 @@ public class ReverseFlashControl extends Control {
     }
 
     public void up(){
-        speed = -1500;
+        speed = -0;
         physics.setVelocityY(-300);
     }
 
     public void down(){
-        speed = 1500;
+        speed = 0;
         physics.setVelocityY(300);
     }
 
