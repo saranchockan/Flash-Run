@@ -4,6 +4,8 @@ package sample;
 import com.almasb.fxgl.core.math.FXGLMath;
 import com.almasb.fxgl.entity.Control;
 import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.physics.BoundingShape;
+import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.texture.AnimatedTexture;
 import com.almasb.fxgl.texture.AnimationChannel;
@@ -21,8 +23,8 @@ public class FlashControl extends Control {
 
         //-- Creates the animated sprite
 
-        flashIdle = new AnimationChannel("flash sprite --steady.png", 16, 1315/16, 97, Duration.seconds(1),0,15);
-        flashRun = new AnimationChannel("flash sprite-running.png", 10, 1370/10, 97, Duration.seconds(1),0,9);
+        flashIdle = new AnimationChannel("flash sprite --steady.png", 16, 658/16, 49, Duration.seconds(1),0,15);
+        flashRun = new AnimationChannel("flash sprite-running.png", 10, 685/10, 49, Duration.seconds(1),0,9);
         texture = new AnimatedTexture(flashIdle);
     }
 
@@ -35,11 +37,15 @@ public class FlashControl extends Control {
     public void onUpdate(Entity entity, double v) {
 
         if(speed==0){
+            entity.getBoundingBoxComponent().clearHitBoxes();
+            entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(685/16,49)));
             texture.setAnimationChannel(flashIdle);
             physics.setVelocityX(0);
         }
 
         else{
+            entity.getBoundingBoxComponent().clearHitBoxes();
+            entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(685/10,49)));
             texture.setAnimationChannel(flashRun);
             speed = (int) (speed * 0.4);
 
