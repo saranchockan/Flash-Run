@@ -54,18 +54,16 @@ public class Game extends GameApplication {
         reverseFlash = getGameWorld().spawn("reverse-flash",200,200);
         TimerAction timerAction = getMasterTimer().runAtInterval(() -> {
 
+            if(getGameState().getInt("minutes")==0){
+                this.exit();
+                //this.startNewGame();
+            }
             int sl = 0;
             int sr = 0;
             if(Integer.toString(seconds).length()==2){
                  sl = Integer.parseInt(Integer.toString(seconds).substring(0,1));
                  sr = Integer.parseInt(Integer.toString(seconds).substring(1,2));
             }
-
-            System.out.println(seconds);
-            int minutes = getGameState().intProperty("minutes").getValue();
-            int seconds_left = getGameState().intProperty("seconds_left").getValue();
-            int seconds_right = getGameState().intProperty("seconds_right").getValue();
-
 
             if(seconds==60){
                 getGameState().setValue("seconds_left",0);
@@ -82,13 +80,11 @@ public class Game extends GameApplication {
             else  if(seconds<10){
                 getGameState().setValue("seconds_left",0);
                 getGameState().setValue("seconds_right",seconds);
-
             }
             else{
                 getGameState().setValue("seconds_left",sl);
                 getGameState().setValue("seconds_right",sr);
             }
-
 
             if(seconds>0){
                 seconds--;
@@ -96,6 +92,7 @@ public class Game extends GameApplication {
             else{
                 seconds = 60;
             }
+
 
 
         }, Duration.seconds(1));
@@ -107,15 +104,8 @@ public class Game extends GameApplication {
         //-- Creates and implements Timer-
         Text minutes = new Text();
 
-        /*
-        minutes.setTranslateX(50); // x = 50
-        minutes.setTranslateY(100); // y = 100
-        */
-
-        minutes.setTranslateX(1095);
+        minutes.setTranslateX(1090);
         minutes.setTranslateY(27.5);
-
-
 
 
         DropShadow ds = new DropShadow();
@@ -123,60 +113,39 @@ public class Game extends GameApplication {
         ds.setColor(Color.color(0.4f, 0.4f, 0.4f));
         minutes.setEffect(ds);
         minutes.setCache(true);
-        //minutes.setX(10.0f);
-        //minutes.setY(270.0f);
         minutes.setFill(Color.RED);
         minutes.setFont(Font.font(null, FontWeight.BOLD, 32));
         getGameScene().addUINode(minutes); // add to the scene graph
         minutes.textProperty().bind(getGameState().intProperty("minutes").asString());
 
         Text timeFormat = new Text();
-        /*
-        timeFormat.setTranslateX(67.5);
-        timeFormat.setTranslateY(97.5);
-        */
-
-        timeFormat.setTranslateX(1112.5);
+        timeFormat.setTranslateX(1107.5);
         timeFormat.setTranslateY(27.5);
 
         timeFormat.setText(":");
         timeFormat.setEffect(ds);
         timeFormat.setCache(true);
-        //timeFormat.setX(10.0f);
-        //timeFormat.setY(270.0f);
         timeFormat.setFill(Color.RED);
         timeFormat.setFont(Font.font(null, FontWeight.BOLD, 32));
         getGameScene().addUINode(timeFormat); // add to the scene graph
 
 
         Text seconds_left = new Text();
-        /*
-        seconds_left.setTranslateX(75);
-        seconds_left.setTranslateY(100);
-        */
-        seconds_left.setTranslateX(1120);
+        seconds_left.setTranslateX(1115);
         seconds_left.setTranslateY(27.5);
 
         seconds_left.setEffect(ds);
         seconds_left.setCache(true);
-        //seconds_left.setX(10.0f);
-        //seconds_left.setY(270.0f);
         seconds_left.setFill(Color.RED);
         seconds_left.setFont(Font.font(null, FontWeight.BOLD, 32));
         getGameScene().addUINode(seconds_left); // add to the scene graph
         seconds_left.textProperty().bind(getGameState().intProperty("seconds_left").asString());
 
         Text seconds_right = new Text();
-        /*
-        seconds_right.setTranslateX(95);
-        seconds_right.setTranslateY(100);
-        */
-        seconds_right.setTranslateX(1140);
+        seconds_right.setTranslateX(1135);
         seconds_right.setTranslateY(27.5);
         seconds_right.setEffect(ds);
         seconds_right.setCache(true);
-        //seconds_right.setX(10.0f);
-        //seconds_right.setY(270.0f);
         seconds_right.setFill(Color.RED);
         seconds_right.setFont(Font.font(null, FontWeight.BOLD, 32));
         getGameScene().addUINode(seconds_right); // add to the scene graph
