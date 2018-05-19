@@ -211,6 +211,16 @@ public class Game extends GameApplication {
 
         },KeyCode.S);
 
+        getInput().addAction(new UserAction("F_Flight") {
+            @Override
+            protected void onAction(){
+                flash.getControl(FlashControl.class).flight();
+                flash.translateY(20);
+            }
+
+        },KeyCode.F);
+
+
         getInput().addAction(new UserAction("Rf_Left") {
             @Override
             protected void onAction(){
@@ -247,6 +257,16 @@ public class Game extends GameApplication {
             }
 
         },KeyCode.DOWN);
+
+        getInput().addAction(new UserAction("RF_Flight") {
+            @Override
+            protected void onAction(){
+                reverseFlash.getControl(ReverseFlashControl.class).flight();
+                reverseFlash.translateY(20);
+            }
+
+        },KeyCode.M);
+
 
 
     }
