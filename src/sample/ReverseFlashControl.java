@@ -39,9 +39,11 @@ public class ReverseFlashControl extends Control {
 
 
         if(down){
-            physics.setVelocityY(1000);
+            physics.setVelocityY(500);
         }
         if(speed==0){
+            down = true;
+
             entity.getBoundingBoxComponent().clearHitBoxes();
             entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(673/7,85)));
             texture.setAnimationChannel(reverseflashIdle);
@@ -70,6 +72,7 @@ public class ReverseFlashControl extends Control {
         down = false;
         speed = -1500;
         physics.setVelocityX(-1500);
+        physics.setVelocityY(500);
         getEntity().setScaleX(-1);
     }
 
@@ -77,20 +80,21 @@ public class ReverseFlashControl extends Control {
         down = false;
         speed = 1500;
         physics.setVelocityX(1500);
+        physics.setVelocityY(500);
         getEntity().setScaleX(1);
 
     }
 
     public void up(){
         down = false;
-        speed = -500;
-        physics.setVelocityY(-500);
+        speed = -1000;
+        physics.setVelocityY(-1000);
     }
 
     public void down(){
         down = false;
-        speed = 1000;
-        physics.setVelocityY(1000);
+        speed = 500;
+        physics.setVelocityY(500);
     }
 
     public void flight(){

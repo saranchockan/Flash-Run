@@ -40,9 +40,10 @@ public class FlashControl extends Control {
 
 
         if(down){
-            physics.setVelocityY(1000);
+            physics.setVelocityY(500);
         }
         if(speed==0){
+
             down = true;
 
             entity.getBoundingBoxComponent().clearHitBoxes();
@@ -74,6 +75,8 @@ public class FlashControl extends Control {
         down = false;
         speed = -700;
         physics.setVelocityX(-700);
+        physics.setVelocityY(500);
+
         getEntity().setScaleX(-1);
     }
 
@@ -81,6 +84,7 @@ public class FlashControl extends Control {
         down = false;
         speed = 700;
         physics.setVelocityX(700);
+        physics.setVelocityY(500);
         getEntity().setScaleX(1);
     }
 
@@ -92,8 +96,8 @@ public class FlashControl extends Control {
 
     public void down(){
         down = false;
-        speed = 1000;
-        physics.setVelocityY(1000);
+        speed = 500;
+        physics.setVelocityY(500);
     }
 
     public void flight(){
