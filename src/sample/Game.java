@@ -40,11 +40,12 @@ public class Game extends GameApplication {
     private Entity flash;
     private Entity reverseFlash;
     private int seconds = 60;
+    private int limit = 1;
 
     @Override
     protected void initGame(){
         //-- Stops the intro music
-        getAudioPlayer().stopAllSounds();
+        //getAudioPlayer().stopAllSounds();
 
         //-- Creates the SpeedForce maze
         getGameWorld().setLevelFromMap("SpeedForce.json");
@@ -52,11 +53,11 @@ public class Game extends GameApplication {
         //-- Spawns the entities into the game
         flash = getGameWorld().spawn("flash",50,50);
         reverseFlash = getGameWorld().spawn("reverse-flash",200,200);
+
         TimerAction timerAction = getMasterTimer().runAtInterval(() -> {
 
-            if(getGameState().getInt("minutes")==0){
+            if(getGameState().getInt("minutes")==0 && limit==3  && seconds==0){
                 this.exit();
-                //this.startNewGame();
             }
             int sl = 0;
             int sr = 0;
@@ -90,6 +91,7 @@ public class Game extends GameApplication {
                 seconds--;
             }
             else{
+                limit++;
                 seconds = 60;
             }
 
