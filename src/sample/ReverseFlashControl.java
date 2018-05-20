@@ -70,16 +70,16 @@ public class ReverseFlashControl extends Control {
 
     public void left(){
         down = false;
-        speed = -1500;
-        physics.setVelocityX(-1500);
+        speed = -1300;
+        physics.setVelocityX(-1300);
         physics.setVelocityY(500);
         getEntity().setScaleX(-1);
     }
 
     public void right(){
         down = false;
-        speed = 1500;
-        physics.setVelocityX(1500);
+        speed = 1300;
+        physics.setVelocityX(1300);
         physics.setVelocityY(500);
         getEntity().setScaleX(1);
 
@@ -87,7 +87,7 @@ public class ReverseFlashControl extends Control {
 
     public void up(){
         down = false;
-        speed = -1000;
+        speed = -1100;
         physics.setVelocityY(-1000);
     }
 
@@ -101,6 +101,14 @@ public class ReverseFlashControl extends Control {
         down = false;
         speed = -100;
         physics.setVelocityY(-100);
+    }
+
+    public void switchRight(){
+        getEntity().setScaleX(1);
+    }
+
+    public void switchLeft(){
+        getEntity().setScaleX(-1);
     }
 
 }

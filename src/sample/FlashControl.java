@@ -75,7 +75,7 @@ public class FlashControl extends Control {
         down = false;
         speed = -700;
         physics.setVelocityX(-700);
-        physics.setVelocityY(500);
+        physics.setVelocityY(300);
 
         getEntity().setScaleX(-1);
     }
@@ -84,7 +84,7 @@ public class FlashControl extends Control {
         down = false;
         speed = 700;
         physics.setVelocityX(700);
-        physics.setVelocityY(500);
+        physics.setVelocityY(300);
         getEntity().setScaleX(1);
     }
 
@@ -105,5 +105,14 @@ public class FlashControl extends Control {
         speed = -100;
         physics.setVelocityY(-100);
     }
+
+    public void switchRight(){
+        getEntity().setScaleX(1);
+    }
+
+    public void switchLeft(){
+        getEntity().setScaleX(-1);
+    }
+
 
 }

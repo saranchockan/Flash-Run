@@ -45,7 +45,7 @@ public class Game extends GameApplication {
     @Override
     protected void initGame(){
         //-- Stops the intro music
-        //getAudioPlayer().stopAllSounds();
+        getAudioPlayer().stopAllSounds();
 
         //-- Creates the SpeedForce maze
         getGameWorld().setLevelFromMap("SpeedForce.json");
@@ -189,7 +189,6 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).right();
-                flash.translateX(20);
             }
 
         },KeyCode.D);
@@ -198,7 +197,6 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).up();
-                flash.translateY(-20);
 
             }
 
@@ -208,26 +206,41 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).down();
-                flash.translateY(20);
             }
 
         },KeyCode.S);
+
 
         getInput().addAction(new UserAction("F_Flight") {
             @Override
             protected void onAction(){
                 flash.getControl(FlashControl.class).flight();
-                flash.translateY(20);
             }
 
-        },KeyCode.F);
+        },KeyCode.R);
+
+
+        getInput().addAction(new UserAction("F_SR") {
+            @Override
+            protected void onAction(){
+                flash.getControl(FlashControl.class).switchRight();
+            }
+
+        },KeyCode.Y);
+
+        getInput().addAction(new UserAction("F_SL") {
+            @Override
+            protected void onAction(){
+                flash.getControl(FlashControl.class).switchLeft();
+            }
+
+        },KeyCode.T);
 
 
         getInput().addAction(new UserAction("Rf_Left") {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).left();
-                reverseFlash.translateX(-40);
             }
 
         },KeyCode.LEFT);
@@ -236,7 +249,6 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).right();
-                reverseFlash.translateX(40);
             }
 
         },KeyCode.RIGHT);
@@ -245,7 +257,6 @@ public class Game extends GameApplication {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).up();
-                reverseFlash.translateY(-40);
             }
 
         },KeyCode.UP);
@@ -255,19 +266,35 @@ public class Game extends GameApplication {
             protected void onAction(){
 
                 reverseFlash.getControl(ReverseFlashControl.class).down();
-                reverseFlash.translateY(40);
             }
 
         },KeyCode.DOWN);
+
 
         getInput().addAction(new UserAction("RF_Flight") {
             @Override
             protected void onAction(){
                 reverseFlash.getControl(ReverseFlashControl.class).flight();
-                reverseFlash.translateY(20);
             }
 
-        },KeyCode.M);
+        },KeyCode.L);
+
+
+        getInput().addAction(new UserAction("RF_SwitchRight") {
+            @Override
+            protected void onAction(){
+                reverseFlash.getControl(ReverseFlashControl.class).switchRight();
+            }
+
+        },KeyCode.K);
+
+        getInput().addAction(new UserAction("RF_SwitchLeft") {
+            @Override
+            protected void onAction(){
+                reverseFlash.getControl(ReverseFlashControl.class).switchLeft();
+            }
+        },KeyCode.J);
+
 
 
 
