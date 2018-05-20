@@ -1,5 +1,5 @@
 package sample;
 
 public enum FlashType {
-    SPEEDSTER, MAZE
+    FLASH, REVERSEFLASH, MAZE
 }

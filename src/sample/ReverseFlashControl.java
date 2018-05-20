@@ -32,7 +32,10 @@ public class ReverseFlashControl extends Control {
     }
 
     @Override
-    public void onAdded(Entity entity){ entity.setView(texture); }
+    public void onAdded(Entity entity){
+        entity.setView(texture);
+        entity.setScaleX(-1);
+    }
 
     @Override
     public void onUpdate(Entity entity, double v) {

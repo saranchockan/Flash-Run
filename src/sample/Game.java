@@ -2,6 +2,7 @@ package sample;
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.input.UserAction;
+import com.almasb.fxgl.physics.CollisionHandler;
 import com.almasb.fxgl.settings.GameSettings;
 import com.almasb.fxgl.time.TimerAction;
 import javafx.scene.effect.DropShadow;
@@ -11,7 +12,6 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
-
 import java.util.Map;
 
 public class Game extends GameApplication {
@@ -31,8 +31,6 @@ public class Game extends GameApplication {
         gameSettings.setTitle("Flash-Run");
         gameSettings.setVersion("3.0");
 
-
-
     }
 
 
@@ -41,6 +39,7 @@ public class Game extends GameApplication {
     private Entity reverseFlash;
     private int seconds = 60;
     private int limit = 1;
+    private TimerAction timerAction;
 
     @Override
     protected void initGame(){
@@ -52,12 +51,13 @@ public class Game extends GameApplication {
 
         //-- Spawns the entities into the game
         flash = getGameWorld().spawn("flash",50,50);
-        reverseFlash = getGameWorld().spawn("reverse-flash",200,200);
+        reverseFlash = getGameWorld().spawn("reverse-flash",700,200);
 
-        TimerAction timerAction = getMasterTimer().runAtInterval(() -> {
+        timerAction = getMasterTimer().runAtInterval(() -> {
 
             if(getGameState().getInt("minutes")==0 && limit==3  && seconds==0){
-                this.exit();
+                flash.removeFromWorld();
+                stopTimer();
             }
             int sl = 0;
             int sr = 0;
@@ -99,6 +99,11 @@ public class Game extends GameApplication {
 
         }, Duration.seconds(1));
     }
+
+    public void stopTimer(){
+        timerAction.expire();
+    }
+
     //-- Implements UI Elements into the Game
     @Override
     protected void initUI() {
@@ -166,6 +171,15 @@ public class Game extends GameApplication {
     //-- Implements Physics into the Game
     @Override
     protected void initPhysics() {
+
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(FlashType.FLASH, FlashType.REVERSEFLASH) {
+
+            // order of types is the same as passed into the constructor
+            @Override
+            protected void onCollisionBegin(Entity FLASH, Entity REVERSEFLASH) {
+                REVERSEFLASH.removeFromWorld();
+            }
+        });
 
     }
 
