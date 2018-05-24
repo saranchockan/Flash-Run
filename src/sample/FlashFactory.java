@@ -52,8 +52,4 @@ public class FlashFactory implements EntityFactory {
                 .with(new ReverseFlashControl())
                 .build();
     }
-
-
-
-
 }

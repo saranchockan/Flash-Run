@@ -16,7 +16,6 @@ public class ReverseFlashControl extends Control {
     private AnimatedTexture texture;
     private AnimationChannel reverseflashIdle, reverseflashRun;
     private int speed = 0;
-
     private boolean down;
     PhysicsComponent physics;
 
@@ -26,7 +25,6 @@ public class ReverseFlashControl extends Control {
         reverseflashIdle = new AnimationChannel("reverse flash sprite --steady.png", 7, 673/7, 85, Duration.seconds(1),0,6);
         reverseflashRun = new AnimationChannel("reverse flash sprite-running .png", 7, 1134/7, 77, Duration.seconds(1),0,6);
         texture = new AnimatedTexture(reverseflashRun);
-
         down = true;
 
     }
@@ -39,7 +37,6 @@ public class ReverseFlashControl extends Control {
 
     @Override
     public void onUpdate(Entity entity, double v) {
-
 
         if(down){
             physics.setVelocityY(500);
@@ -55,12 +52,10 @@ public class ReverseFlashControl extends Control {
         }
         else{
             down = true;
-
             entity.getBoundingBoxComponent().clearHitBoxes();
             entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(1134/7,77)));
             texture.setAnimationChannel(reverseflashRun);
             speed = (int) (speed * 0.4);
-
             physics.setVelocityX(physics.getVelocityX()/2);
             physics.setVelocityY(physics.getVelocityY()/2);
 

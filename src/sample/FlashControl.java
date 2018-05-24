@@ -26,7 +26,6 @@ public class FlashControl extends Control {
         flashIdle = new AnimationChannel("flash sprite --steady.png", 16, 658/16, 49, Duration.seconds(1),0,15);
         flashRun = new AnimationChannel("flash sprite-running.png", 10, 685/10, 49, Duration.seconds(1),0,9);
         texture = new AnimatedTexture(flashIdle);
-
         down = true;
     }
 
@@ -45,7 +44,6 @@ public class FlashControl extends Control {
         if(speed==0){
 
             down = true;
-
             entity.getBoundingBoxComponent().clearHitBoxes();
             entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(685/16,49)));
             texture.setAnimationChannel(flashIdle);
@@ -53,7 +51,6 @@ public class FlashControl extends Control {
         }
         else{
             down = true;
-
             entity.getBoundingBoxComponent().clearHitBoxes();
             entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(685/10,49)));
             texture.setAnimationChannel(flashRun);
@@ -76,7 +73,6 @@ public class FlashControl extends Control {
         speed = -700;
         physics.setVelocityX(-700);
         physics.setVelocityY(300);
-
         getEntity().setScaleX(-1);
     }
 
