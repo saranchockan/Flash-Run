@@ -41,10 +41,13 @@ public class Game extends GameApplication {
     private int limit = 1;
     private TimerAction timerAction;
 
+    private boolean fC = false;
+    private boolean rfC = false;
+
     @Override
     protected void initGame(){
         //-- Stops the intro music
-        getAudioPlayer().stopAllSounds();
+        //getAudioPlayer().stopAllSounds();
 
         //-- Creates the SpeedForce maze
         getGameWorld().setLevelFromMap("SpeedForce.json");
@@ -57,6 +60,7 @@ public class Game extends GameApplication {
 
             if(getGameState().getInt("minutes")==0 && limit==3  && seconds==0){
                 flash.removeFromWorld();
+                fC = true;
                 stopTimer();
             }
             int sl = 0;
@@ -177,7 +181,9 @@ public class Game extends GameApplication {
             // order of types is the same as passed into the constructor
             @Override
             protected void onCollisionBegin(Entity FLASH, Entity REVERSEFLASH) {
+
                 REVERSEFLASH.removeFromWorld();
+                rfC = true;
             }
         });
 
@@ -193,8 +199,11 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("F_Left") {
             @Override
             protected void onAction(){
-                flash.getControl(FlashControl.class).left();
-                flash.translateX(-20);
+                if(!fC){
+                    flash.getControl(FlashControl.class).left();
+                    flash.translateX(-20);
+                }
+
             }
 
         },KeyCode.A);
@@ -202,7 +211,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("F_Right") {
             @Override
             protected void onAction(){
-                flash.getControl(FlashControl.class).right();
+                if(!fC){
+                    flash.getControl(FlashControl.class).right();
+
+                }
             }
 
         },KeyCode.D);
@@ -210,7 +222,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("F_Up") {
             @Override
             protected void onAction(){
-                flash.getControl(FlashControl.class).up();
+                if(!fC){
+                    flash.getControl(FlashControl.class).up();
+
+                }
 
             }
 
@@ -219,7 +234,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("F_Down") {
             @Override
             protected void onAction(){
-                flash.getControl(FlashControl.class).down();
+
+                if(!fC){
+                    flash.getControl(FlashControl.class).down();
+                }
             }
 
         },KeyCode.S);
@@ -228,7 +246,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("F_Flight") {
             @Override
             protected void onAction(){
-                flash.getControl(FlashControl.class).flight();
+                if(!fC){
+                    flash.getControl(FlashControl.class).flight();
+
+                }
             }
 
         },KeyCode.R);
@@ -237,7 +258,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("F_SR") {
             @Override
             protected void onAction(){
-                flash.getControl(FlashControl.class).switchRight();
+
+                if(!fC){
+                    flash.getControl(FlashControl.class).switchRight();
+                }
             }
 
         },KeyCode.Y);
@@ -245,7 +269,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("F_SL") {
             @Override
             protected void onAction(){
-                flash.getControl(FlashControl.class).switchLeft();
+
+                if(!fC){
+                    flash.getControl(FlashControl.class).switchLeft();
+                }
             }
 
         },KeyCode.T);
@@ -254,7 +281,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("Rf_Left") {
             @Override
             protected void onAction(){
-                reverseFlash.getControl(ReverseFlashControl.class).left();
+
+                if(!rfC){
+                    reverseFlash.getControl(ReverseFlashControl.class).left();
+                }
             }
 
         },KeyCode.LEFT);
@@ -262,7 +292,11 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("Rf_Right") {
             @Override
             protected void onAction(){
-                reverseFlash.getControl(ReverseFlashControl.class).right();
+
+                if(!rfC){
+                    reverseFlash.getControl(ReverseFlashControl.class).right();
+
+                }
             }
 
         },KeyCode.RIGHT);
@@ -270,7 +304,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("Rf_Up") {
             @Override
             protected void onAction(){
-                reverseFlash.getControl(ReverseFlashControl.class).up();
+                if(!rfC){
+                    reverseFlash.getControl(ReverseFlashControl.class).up();
+
+                }
             }
 
         },KeyCode.UP);
@@ -278,8 +315,10 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("Rf_Down") {
             @Override
             protected void onAction(){
+                if(!rfC){
+                    reverseFlash.getControl(ReverseFlashControl.class).down();
 
-                reverseFlash.getControl(ReverseFlashControl.class).down();
+                }
             }
 
         },KeyCode.DOWN);
@@ -288,7 +327,11 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("RF_Flight") {
             @Override
             protected void onAction(){
-                reverseFlash.getControl(ReverseFlashControl.class).flight();
+                if(!rfC){
+                    reverseFlash.getControl(ReverseFlashControl.class).flight();
+
+                }
+
             }
 
         },KeyCode.L);
@@ -297,7 +340,11 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("RF_SwitchRight") {
             @Override
             protected void onAction(){
-                reverseFlash.getControl(ReverseFlashControl.class).switchRight();
+                if(!rfC){
+                    reverseFlash.getControl(ReverseFlashControl.class).switchRight();
+
+                }
+
             }
 
         },KeyCode.K);
@@ -305,7 +352,11 @@ public class Game extends GameApplication {
         getInput().addAction(new UserAction("RF_SwitchLeft") {
             @Override
             protected void onAction(){
-                reverseFlash.getControl(ReverseFlashControl.class).switchLeft();
+
+                if(!rfC){
+                    reverseFlash.getControl(ReverseFlashControl.class).switchLeft();
+
+                }
             }
         },KeyCode.J);
 
