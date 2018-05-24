@@ -5,6 +5,7 @@ import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.physics.CollisionHandler;
 import com.almasb.fxgl.settings.GameSettings;
 import com.almasb.fxgl.time.TimerAction;
+import javafx.scene.control.Alert;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.input.KeyCode;
 import javafx.scene.paint.Color;
@@ -18,6 +19,7 @@ public class Game extends GameApplication {
 
 
     //-- Game Settings
+
     @Override
     protected void initSettings(GameSettings gameSettings) {
 
@@ -29,7 +31,7 @@ public class Game extends GameApplication {
         gameSettings.setSceneFactory(new MainMenu());
 
         gameSettings.setTitle("Flash-Run");
-        gameSettings.setVersion("3.0");
+        gameSettings.setVersion("1.0");
 
     }
 
@@ -41,8 +43,10 @@ public class Game extends GameApplication {
     private int limit = 1;
     private TimerAction timerAction;
 
+    private Alert alert;
     private boolean fC = false;
     private boolean rfC = false;
+
 
     @Override
     protected void initGame(){
@@ -63,6 +67,7 @@ public class Game extends GameApplication {
             if(getGameState().getInt("minutes")==0 && limit==3  && seconds==0){
                 timerAction.expire();
                 flash.removeFromWorld();
+                reveseFlashWins();
                 fC = true;
                 stopTimer();
             }
@@ -105,6 +110,23 @@ public class Game extends GameApplication {
 
     public void stopTimer(){
         timerAction.expire();
+    }
+
+    public void flashWins(){
+        alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("GAME OVER");
+        alert.setHeaderText("The Flash Won!");
+        alert.setContentText("Run Barry Run!");
+        alert.show();
+    }
+
+
+    public void reveseFlashWins(){
+        alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("GAME OVER");
+        alert.setHeaderText("The Reverse Flash Won!");
+        alert.setContentText("Run Barry Run!");
+        alert.show();
     }
 
     //-- Implements UI Elements into the Game
@@ -180,6 +202,7 @@ public class Game extends GameApplication {
             protected void onCollisionBegin(Entity FLASH, Entity REVERSEFLASH) {
 
                 REVERSEFLASH.removeFromWorld();
+                flashWins();
                 timerAction.expire();
                 rfC = true;
             }

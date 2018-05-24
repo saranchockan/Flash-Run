@@ -1,6 +1,6 @@
 # Flash-Run
 Flash-Run is a 2-player game where the Flash chases Reverse Flash. It consists of a platform maze which includes velocity serums,time wraiths
-The objective of the game is for the Flash to catch the Reverse Flash within a certain time limit, 
+The objective of the game is for the Flash to catch the Reverse Flash under 3 minutes,
 by using tactics in the maze since the Reverse Flash is faster than the Flash. 
 
 ![Alt Text](https://media.giphy.com/media/3qslfVh41tnCGCFdZO/giphy.gif)
