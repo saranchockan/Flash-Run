@@ -180,6 +180,7 @@ public class Game extends GameApplication {
             protected void onCollisionBegin(Entity FLASH, Entity REVERSEFLASH) {
 
                 REVERSEFLASH.removeFromWorld();
+                timerAction.expire();
                 rfC = true;
             }
         });

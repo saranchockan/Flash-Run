@@ -38,11 +38,8 @@ public class FlashControl extends Control {
     public void onUpdate(Entity entity, double v) {
 
 
-        if(down){
-            physics.setVelocityY(500);
-        }
+        if(down){ physics.setVelocityY(500);}
         if(speed==0){
-
             down = true;
             entity.getBoundingBoxComponent().clearHitBoxes();
             entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(685/16,49)));
@@ -61,7 +58,6 @@ public class FlashControl extends Control {
 
 
             if (FXGLMath.abs(speed) < 1) {
-
                 speed = 0;
             }
         }
@@ -71,6 +67,7 @@ public class FlashControl extends Control {
     public void left(){
         down = false;
         speed = -700;
+
         physics.setVelocityX(-700);
         physics.setVelocityY(300);
         getEntity().setScaleX(-1);
@@ -79,6 +76,7 @@ public class FlashControl extends Control {
     public void right(){
         down = false;
         speed = 700;
+
         physics.setVelocityX(700);
         physics.setVelocityY(300);
         getEntity().setScaleX(1);
@@ -92,6 +90,7 @@ public class FlashControl extends Control {
 
     public void down(){
         down = false;
+
         speed = 500;
         physics.setVelocityY(500);
     }
