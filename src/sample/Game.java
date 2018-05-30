@@ -76,6 +76,7 @@ public class Game extends GameApplication {
             if(Integer.toString(seconds).length()==2){
                  sl = Integer.parseInt(Integer.toString(seconds).substring(0,1));
                  sr = Integer.parseInt(Integer.toString(seconds).substring(1,2));
+
             }
 
             if(seconds==60){
@@ -128,6 +129,8 @@ public class Game extends GameApplication {
         alert.setContentText("Looks like the flash ran out of time!");
         alert.show();
     }
+
+
 
     //-- Implements UI Elements into the Game
     @Override
@@ -182,6 +185,22 @@ public class Game extends GameApplication {
         seconds_right.setFont(Font.font(null, FontWeight.BOLD, 32));
         getGameScene().addUINode(seconds_right); // add to the scene graph
         seconds_right.textProperty().bind(getGameState().intProperty("seconds_right").asString());
+
+
+        Text objective = new Text("Catch the Reverse-Flash!");
+
+        objective.setTranslateX(400);
+        objective.setTranslateY(27.5);
+
+
+        DropShadow o = new DropShadow();
+        o.setOffsetY(3.0f);
+        o.setColor(Color.color(0.4f, 0.4f, 0.4f));
+        objective.setEffect(o);
+        objective.setCache(true);
+        objective.setFill(Color.RED);
+        objective.setFont(Font.font(null, FontWeight.BOLD, 32));
+        getGameScene().addUINode(objective); // add to the scene graph
     }
 
     //-- Global Variables in the Game put into a Map
