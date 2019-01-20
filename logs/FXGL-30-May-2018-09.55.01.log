@@ -1,0 +1,1064 @@
+09:52:07.630 [JavaFX Application Thread] DEBUG GameApplication      - Logger initialized
+09:52:07.650 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+09:52:07.869 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 1184.0 x 672.0
+09:52:07.869 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    1184.0 x 672.0
+09:52:07.869 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+09:52:08.507 [JavaFX Application Thread] DEBUG GameApplication      - Starting FXGL
+09:52:08.585 [FXGL Launcher Thread     ] INFO  Version              - FXGL-0.4.3
+09:52:08.586 [FXGL Launcher Thread     ] INFO  Version              - Source code and latest versions at: https://github.com/AlmasB/FXGL
+09:52:08.586 [FXGL Launcher Thread     ] INFO  Version              -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+09:52:08.588 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading FXGL system data
+09:52:08.594 [FXGL Launcher Thread     ] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+09:52:08.628 [FXGL Launcher Thread     ] DEBUG FS                   - Reading from: system/fxgl.bundle
+09:52:08.661 [FXGL Launcher Thread     ] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+09:52:08.662 [FXGL Launcher Thread     ] DEBUG Bundle               - Logging bundle: FXGL
+09:52:08.663 [FXGL Launcher Thread     ] DEBUG Bundle               - FXGL.offline.timer.version.check=2018-05-23T19:10:35.175
+09:52:08.730 [FXGL Launcher Thread     ] DEBUG GameApplication      - FXGL started
+09:52:08.731 [FXGL Launcher Thread     ] DEBUG GameApplication      - Logging game settings
+Title: Flash-Run
+Version: 1.0
+Width: 1184
+Height: 672
+Fullscreen: false
+Intro: false
+Menus: true
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class sample.MainMenu
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+Notification Service: class com.almasb.fxgl.gameplay.notification.XboxNotificationView
+Exception Handler: class com.almasb.fxgl.app.FXGLExceptionHandler
+09:52:08.735 [FXGL Launcher Thread     ] DEBUG GameApplication      - Configuring GameApplication
+09:52:08.737 [FXGL Launcher Thread     ] DEBUG GameApplication      - Initializing state machine and application states
+09:52:08.759 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+09:52:08.812 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+09:52:08.818 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+09:52:08.841 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/core/notification.wav
+09:52:08.944 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/select.wav
+09:52:08.946 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/back.wav
+09:52:08.949 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/press.wav
+09:52:08.952 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+09:52:08.977 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+09:52:08.986 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+09:52:08.987 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/icons/fxgl_icon.png
+09:52:09.030 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+09:52:09.081 [FXGL Launcher Thread     ] DEBUG FXGL.GameScene       - Game scene initialized: 1184x672
+09:52:09.091 [FXGL Launcher Thread     ] DEBUG FXGL.GameWorld       - Game world initialized
+09:52:09.183 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=672, physics.ppm=50.0
+09:52:09.250 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+09:52:09.252 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/textures/Flash-Run_BG_2.png
+09:52:09.327 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createMenuBodyMainMenu()
+09:52:09.339 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/english.properties
+09:52:09.340 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.341 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createOptionsMenu()
+09:52:09.341 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.342 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.343 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.344 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.344 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.347 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.349 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.350 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.352 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+09:52:09.353 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Flash-Run_BG_2.png
+09:52:09.353 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createMenuBodyGameMenu()
+09:52:09.354 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.355 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.356 [FXGL Launcher Thread     ] DEBUG FXGL.Menu            - createOptionsMenu()
+09:52:09.356 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.356 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.357 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.357 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.357 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.358 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.359 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+09:52:09.369 [FXGL Launcher Thread     ] INFO  GameApplication      - Game configuration took:  0.632 sec
+09:52:09.372 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+09:52:09.445 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (0.0, 22.0)
+09:52:09.445 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 1184.0 x 672.0
+09:52:09.445 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+09:52:09.445 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1184.0 x 672.0
+09:52:09.446 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1184.0 x 694.0
+09:52:09.446 [JavaFX Application Thread] DEBUG GameApplication      - Running preInit()
+09:52:09.448 [JavaFX Application Thread] DEBUG AnnotationParser     - Main app package name: sample
+09:52:09.603 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetAchievementStore: []
+09:52:09.638 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+09:52:09.638 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - CTRL+0
+09:52:09.638 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+09:52:09.640 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/sounds/flash-theme.wav
+09:52:09.961 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Flash-Left - A
+09:52:09.961 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Flash-Right - D
+09:52:09.961 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Flash-Up - W
+09:52:09.962 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Flash-Down - S
+09:52:09.962 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Flash-Flight - R
+09:52:09.962 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Flash-SR - Y
+09:52:09.962 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Flash-SL - T
+09:52:09.962 [JavaFX Application Thread] DEBUG Input                - Registered new binding: RevFlash-Left - Left
+09:52:09.962 [JavaFX Application Thread] DEBUG Input                - Registered new binding: RevFlash-Right - Right
+09:52:09.963 [JavaFX Application Thread] DEBUG Input                - Registered new binding: RevFlash-Up - Up
+09:52:09.963 [JavaFX Application Thread] DEBUG Input                - Registered new binding: RevFlash-Down - Down
+09:52:09.963 [JavaFX Application Thread] DEBUG Input                - Registered new binding: RevFlash-Flight - L
+09:52:09.963 [JavaFX Application Thread] DEBUG Input                - Registered new binding: RevFlash-SR - K
+09:52:09.963 [JavaFX Application Thread] DEBUG Input                - Registered new binding: RevFlash-SL - J
+09:52:09.964 [JavaFX Application Thread] DEBUG MenuEventHandler     - generateDefaultProfile()
+09:52:09.965 [JavaFX Application Thread] DEBUG MenuEventHandler     - Creating default profile
+09:52:09.965 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+09:52:09.967 [JavaFX Application Thread] DEBUG AudioPlayer          - Saving data to profile
+09:52:09.968 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+09:52:09.968 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+09:52:09.968 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+09:52:09.968 [JavaFX Application Thread] DEBUG Input                - Saving data to profile
+09:52:09.968 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+09:52:09.969 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Down=S
+09:52:09.969 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+09:52:09.969 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+09:52:09.969 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-SL=T
+09:52:09.969 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Left=A
+09:52:09.970 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Flight=R
+09:52:09.970 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Down=Down
+09:52:09.970 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Up=W
+09:52:09.970 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Flight=L
+09:52:09.970 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Right=Right
+09:52:09.970 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-SR=Y
+09:52:09.971 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Up=Up
+09:52:09.971 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+09:52:09.971 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-SL=J
+09:52:09.971 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Left=Left
+09:52:09.971 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-SR=K
+09:52:09.971 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Right=D
+09:52:09.976 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+09:52:09.976 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=0
+09:52:09.978 [JavaFX Application Thread] DEBUG AchievementManager   - Saving data to profile
+09:52:09.978 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+09:52:10.038 [JavaFX Application Thread] DEBUG GameApplication      - Starting main loop
+09:52:10.060 [JavaFX Application Thread] DEBUG StartupState         - STARTUP
+09:52:10.060 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:52:10.117 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> MainMenuState
+09:52:10.129 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Checking profiles dir: profiles/
+09:52:10.130 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading profile names
+09:52:10.134 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+09:52:10.140 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+09:52:10.140 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:52:10.141 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+09:52:10.149 [FXGL Background Thread 1 ] DEBUG IOTask               - Executing task: loadDirectoryNamesTask(./profiles/, false)
+09:52:10.382 [JavaFX Application Thread] DEBUG IOTask               - succeed(): Dismissing dialog
+09:52:10.382 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+09:52:10.382 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:52:10.384 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+09:52:10.384 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: loadDirectoryNamesTask(./profiles/, false)
+09:52:10.389 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+09:52:10.390 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:52:10.390 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+09:53:29.882 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+09:53:29.882 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:53:29.884 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+09:53:29.884 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading profile: Saran
+09:53:29.886 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+09:53:29.890 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+09:53:29.891 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:53:29.891 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+09:53:29.895 [FXGL Background Thread 2 ] DEBUG IOTask               - Executing task: readDataTask(./profiles/Saran/user.profile)
+09:53:29.897 [FXGL Background Thread 2 ] DEBUG FS                   - Reading from: ./profiles/Saran/user.profile
+09:53:29.919 [JavaFX Application Thread] DEBUG IOTask               - succeed(): Dismissing dialog
+09:53:29.919 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+09:53:29.919 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:53:29.920 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+09:53:29.920 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: readDataTask(./profiles/Saran/user.profile)
+09:53:29.920 [JavaFX Application Thread] DEBUG EventBus             - Firing event: LoadEvent[type=LOAD_PROFILE]
+09:53:29.921 [JavaFX Application Thread] DEBUG AudioPlayer          - Loading data from profile
+09:53:29.921 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+09:53:29.921 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+09:53:29.921 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+09:53:29.921 [JavaFX Application Thread] DEBUG Input                - Loading data from profile
+09:53:29.922 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+09:53:29.922 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Down=S
+09:53:29.922 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+09:53:29.922 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+09:53:29.922 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-SL=T
+09:53:29.922 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Left=A
+09:53:29.922 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Flight=R
+09:53:29.922 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Down=Down
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Up=W
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Flight=L
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Right=Right
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-SR=Y
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Up=Up
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-SL=J
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Left=Left
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-SR=K
+09:53:29.923 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Right=D
+09:53:29.925 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+09:53:29.925 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=732854050105
+09:53:29.925 [JavaFX Application Thread] DEBUG AchievementManager   - Loading data from profile
+09:53:29.925 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+09:53:29.926 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading last modified save file
+09:53:29.926 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Loading save files
+09:53:29.932 [JavaFX Application Thread] DEBUG IOTask               - Showing dialog
+09:53:29.934 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+09:53:29.934 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:53:29.934 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+09:53:29.939 [FXGL Background Thread 2 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Saran/saves/, true, [FileExtension(extension=.sav)])
+09:53:29.940 [FXGL Background Thread 2 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Saran/saves/, true, [FileExtension(extension=.sav)])
+09:53:29.940 [FXGL Background Thread 2 ] DEBUG IOTask               - Executing task: loadFileNamesTask(./profiles/Saran/saves/, true, [FileExtension(extension=.sav)])
+09:53:29.946 [FXGL Background Thread 2 ] DEBUG IOTask               - Executing task: readSaveFiles
+09:53:29.950 [FXGL Background Thread 2 ] DEBUG IOTask               - Executing task: findLastSave
+09:53:29.961 [JavaFX Application Thread] DEBUG IOTask               - fail(): Dismissing dialog
+09:53:29.962 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+09:53:29.962 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:53:29.962 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+09:53:29.963 [JavaFX Application Thread] WARN  IOTask               - Task failed: loadFileNamesTask(./profiles/Saran/saves/, true, [FileExtension(extension=.sav)]) Error: java.io.FileNotFoundException: No save files found
+09:53:31.256 [JavaFX Application Thread] DEBUG FXGL.Menu            - fireNewGame()
+09:53:31.256 [JavaFX Application Thread] DEBUG GameApplication      - Starting new game
+09:53:31.256 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:53:31.271 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> LoadingState
+09:53:31.273 [JavaFX Application Thread] DEBUG AnnotationParser     - Main app package name: sample
+09:53:31.273 [JavaFX Application Thread] DEBUG InitAppTask          - Parsing annotations
+09:53:31.342 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetEntityFactory: [FlashFactory]
+09:53:31.342 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetEventHandler: []
+09:53:31.343 [JavaFX Application Thread] DEBUG AnnotationParser     - @AddCollisionHandler: []
+09:53:31.344 [FXGL Background Thread 2 ] DEBUG InitAppTask          - Clearing previous game
+09:53:31.344 [FXGL Background Thread 2 ] DEBUG FXGL.GameWorld       - Clearing game world
+09:53:31.344 [FXGL Background Thread 2 ] DEBUG PhysicsWorld         - Clearing physics world
+09:53:31.344 [FXGL Background Thread 2 ] DEBUG FXGL.GameScene       - Clearing game scene
+09:53:31.345 [FXGL Background Thread 2 ] DEBUG InitAppTask          - Initializing Assets
+09:53:31.346 [FXGL Background Thread 2 ] DEBUG InitAppTask          - Initializing Game
+09:53:31.373 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from disk: /assets/json/SpeedForce.json
+09:53:31.689 [FXGL Background Thread 2 ] DEBUG FXGL.GameWorld       - Clearing removable entities
+09:53:31.689 [FXGL Background Thread 2 ] DEBUG FXGL.GameWorld       - Setting level from map
+09:53:31.718 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/Speed Force--background.png
+09:53:31.800 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.800 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.801 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.801 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.801 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.801 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.801 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.801 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.802 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.802 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.802 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.802 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.803 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.803 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.803 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.803 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.803 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.803 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.804 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.804 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.804 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.804 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.804 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.805 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.805 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.805 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.805 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.805 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.806 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.806 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.806 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.806 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.806 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.806 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.807 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.807 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.807 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.807 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.807 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.807 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.808 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.808 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.808 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.808 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.808 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.809 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.809 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.809 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.809 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.809 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.809 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.810 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.810 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.810 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.810 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.810 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.811 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.811 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.811 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.811 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.811 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.812 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.812 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.812 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.812 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.812 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.812 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.813 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.813 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.813 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.813 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.813 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.814 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.814 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.814 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.814 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.814 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.815 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.815 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.815 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.815 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.815 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.815 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.816 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.816 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.816 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.816 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.816 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.817 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.817 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.817 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.817 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.817 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.817 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.818 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.818 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.818 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.818 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.818 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.819 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.819 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.819 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.819 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.819 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.820 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.820 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.820 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.820 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.820 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.820 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.821 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.821 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.821 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.821 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.821 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.821 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.822 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.822 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.822 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.822 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.822 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.823 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.823 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.823 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.823 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.823 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.824 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.825 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.825 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.825 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.825 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.825 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.825 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.825 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.826 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.827 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.828 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.829 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.830 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.830 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.830 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.830 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.830 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.830 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.830 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.830 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.831 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.831 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.831 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.831 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.831 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.831 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.832 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.832 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.832 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.832 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.832 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.833 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.833 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.833 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.833 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.833 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.833 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.834 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.834 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.834 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.834 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.834 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.835 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.835 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.835 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.835 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.835 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.835 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.835 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.836 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.836 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.836 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.836 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.836 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.837 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.837 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.837 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.837 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.837 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.837 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.837 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.838 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.839 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.839 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.839 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.839 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.839 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.839 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.840 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.841 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.841 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.841 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.841 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.842 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.842 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.842 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.842 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.843 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.843 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.843 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.843 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.843 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.844 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.844 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.844 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.844 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.844 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.844 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.845 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.845 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.845 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.845 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.845 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.845 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.845 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.845 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.846 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.846 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.846 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.846 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.846 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.846 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.847 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.847 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.847 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.847 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.847 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.847 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.847 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.848 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.848 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.848 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.848 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.848 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.848 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.848 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.848 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.849 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.849 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.849 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.849 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.849 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.850 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.851 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.852 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.852 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.852 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.852 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.852 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.852 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.852 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.853 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.853 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.853 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.853 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.853 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.853 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.853 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.854 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.855 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.856 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.856 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.856 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.856 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.858 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.859 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.859 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.859 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.859 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.860 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.860 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.860 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.860 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.860 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.860 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.861 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.861 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.861 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.861 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.861 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.861 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.862 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.862 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.862 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.862 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.862 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.862 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.863 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.863 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.863 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.863 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.863 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.863 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.863 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.863 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.864 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.864 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.864 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.864 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.864 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.864 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.864 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.864 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.865 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.866 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.867 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.868 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.868 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.868 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.868 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.869 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.869 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.869 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.869 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.869 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.869 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.869 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.870 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.870 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.870 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.870 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.870 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.870 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.870 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.871 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.872 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.873 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.873 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.873 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.873 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.873 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.873 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.873 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.873 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.874 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.875 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.875 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.875 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.875 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.875 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.875 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.875 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.876 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.876 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.876 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.876 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.876 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.876 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.876 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.877 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.877 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.877 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.877 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.877 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.877 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.877 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.877 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.878 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.878 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.878 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.878 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.878 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.878 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.878 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.879 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.879 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.881 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.881 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.881 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.881 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.882 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.883 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.884 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.885 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.885 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.885 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.885 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.885 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.886 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.887 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.888 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.888 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.888 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.888 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.889 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.890 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.891 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.892 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.893 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.894 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.895 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.896 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.897 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.898 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.899 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.900 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.901 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/Speed Force--background.png
+09:53:31.903 [FXGL Background Thread 2 ] DEBUG FXGL.GameScene       - Creating render group for layer: BACKGROUND(1000)
+09:53:31.976 [FXGL Background Thread 2 ] DEBUG FXGL.GameScene       - Creating render group for layer: DEFAULT(100000)
+09:53:32.000 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/flash sprite --steady.png
+09:53:32.006 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/flash sprite-running.png
+09:53:32.016 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/reverse flash sprite --steady.png
+09:53:32.021 [FXGL Background Thread 2 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/reverse flash sprite-running .png
+09:53:32.031 [FXGL Background Thread 2 ] DEBUG InitAppTask          - Initializing Physics
+09:53:32.032 [FXGL Background Thread 2 ] DEBUG InitAppTask          - Initializing UI
+09:53:32.034 [FXGL Background Thread 2 ] DEBUG InitAppTask          - Initialization Complete
+09:53:32.035 [FXGL Background Thread 2 ] INFO  InitAppTask          - Game initialization took: 0.691 sec
+09:53:32.052 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+09:53:32.062 [JavaFX Application Thread] DEBUG AppStateMachine      - LoadingState -> PlayState
+09:55:01.000 [JavaFX Application Thread] DEBUG GameApplication      - Exiting game application
+09:55:01.001 [JavaFX Application Thread] DEBUG MenuEventHandler     - Creating default profile
+09:55:01.001 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+09:55:01.001 [JavaFX Application Thread] DEBUG AudioPlayer          - Saving data to profile
+09:55:01.001 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+09:55:01.001 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+09:55:01.002 [JavaFX Application Thread] DEBUG Input                - Saving data to profile
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Down=S
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-SL=T
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Left=A
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Flight=R
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Down=Down
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Up=W
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Flight=L
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Right=Right
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-SR=Y
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Up=Up
+09:55:01.002 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+09:55:01.003 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-SL=J
+09:55:01.003 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-Left=Left
+09:55:01.003 [JavaFX Application Thread] DEBUG Bundle               - input.RevFlash-SR=K
+09:55:01.003 [JavaFX Application Thread] DEBUG Bundle               - input.Flash-Right=D
+09:55:01.003 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+09:55:01.003 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=821522228407
+09:55:01.003 [JavaFX Application Thread] DEBUG AchievementManager   - Saving data to profile
+09:55:01.003 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+09:55:01.003 [JavaFX Application Thread] DEBUG FXGL.SaveLoadManager - Saving profile: Saran
+09:55:01.007 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(./profiles/Saran/user.profile)
+09:55:01.007 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(./profiles/Saran/user.profile)
+09:55:01.012 [JavaFX Application Thread] DEBUG FS                   - Writing to: ./profiles/Saran/user.profile
+09:55:01.020 [JavaFX Application Thread] DEBUG IOTask               - Executing task: checkSavesDir(./profiles/Saran/saves/)
+09:55:01.020 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(./profiles/Saran/user.profile)
+09:55:01.021 [JavaFX Application Thread] DEBUG GameApplication      - Shutting down background threads
+09:55:01.021 [JavaFX Application Thread] DEBUG GameApplication      - Exiting FXGL
+09:55:01.021 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+09:55:01.021 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+09:55:01.024 [JavaFX Application Thread] DEBUG FS                   - Writing to: system/fxgl.bundle
+09:55:01.027 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
+09:55:01.027 [JavaFX Application Thread] DEBUG GameApplication      - Closing logger and exiting JavaFX
