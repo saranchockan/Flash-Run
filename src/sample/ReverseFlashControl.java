@@ -16,35 +16,47 @@ public class ReverseFlashControl extends Control {
     private AnimatedTexture texture;
     private AnimationChannel reverseflashIdle, reverseflashRun;
     private int speed = 0;
-    
+    private boolean down;
     PhysicsComponent physics;
 
     public ReverseFlashControl(){
 
         //-- Creates the animated sprite
-
-        reverseflashIdle = new AnimationChannel("reverse flash sprite --steady.png", 7, 1346/7, 170, Duration.seconds(1),0,6);
-        reverseflashRun = new AnimationChannel("reverse flash sprite-running .png", 7, 2268/7, 154, Duration.seconds(1),0,6);
+        reverseflashIdle = new AnimationChannel("reverse flash sprite --steady.png", 7, 673/7, 85, Duration.seconds(1),0,6);
+        reverseflashRun = new AnimationChannel("reverse flash sprite-running .png", 7, 1134/7, 77, Duration.seconds(1),0,6);
         texture = new AnimatedTexture(reverseflashRun);
+        down = true;
+
     }
 
     @Override
-    public void onAdded(Entity entity){ entity.setView(texture); }
+    public void onAdded(Entity entity){
+        entity.setView(texture);
+        entity.setScaleX(-1);
+    }
 
     @Override
     public void onUpdate(Entity entity, double v) {
 
+        if(down){ physics.setVelocityY(500); }
         if(speed==0){
-            texture.setAnimationChannel(reverseflashIdle);
+            down = true;
+
             entity.getBoundingBoxComponent().clearHitBoxes();
-            entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(120,130)));
+            entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(673/7,85)));
+            texture.setAnimationChannel(reverseflashIdle);
             physics.setVelocityX(0);
+
         }
         else{
-            texture.setAnimationChannel(reverseflashRun);
+            down = true;
             entity.getBoundingBoxComponent().clearHitBoxes();
-            entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(324,154)));
+            entity.getBoundingBoxComponent().addHitBox(new HitBox(BoundingShape.box(1134/7,77)));
+            texture.setAnimationChannel(reverseflashRun);
             speed = (int) (speed * 0.4);
+
+            physics.setVelocityX(physics.getVelocityX()/2);
+            physics.setVelocityY(physics.getVelocityY()/2);
 
             if (FXGLMath.abs(speed) < 1) {
                 speed = 0;
@@ -54,26 +66,50 @@ public class ReverseFlashControl extends Control {
 
 
     public void left(){
-        speed = -1500;
-        physics.setVelocityX(-1500);
+        down = false;
+        speed = -1300;
+
+        physics.setVelocityX(-1300);
+        physics.setVelocityY(500);
         getEntity().setScaleX(-1);
     }
 
     public void right(){
-        speed = 1500;
-        physics.setVelocityX(1500);
+        down = false;
+        speed = 1300;
+
+        physics.setVelocityX(1300);
+        physics.setVelocityY(500);
         getEntity().setScaleX(1);
 
     }
 
     public void up(){
-        speed = -1500;
-        physics.setVelocityY(-300);
+        down = false;
+
+        speed = -1100;
+        physics.setVelocityY(-1000);
     }
 
     public void down(){
-        speed = 1500;
-        physics.setVelocityY(300);
+        down = false;
+
+        speed = 500;
+        physics.setVelocityY(500);
+    }
+
+    public void flight(){
+        down = false;
+        speed = -100;
+        physics.setVelocityY(-100);
+    }
+
+    public void switchRight(){
+        getEntity().setScaleX(1);
+    }
+
+    public void switchLeft(){
+        getEntity().setScaleX(-1);
     }
 
 }

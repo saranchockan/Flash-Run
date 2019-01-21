@@ -1,6 +1,7 @@
 package sample;
 
 import com.almasb.fxgl.entity.*;
+import com.almasb.fxgl.entity.component.CollidableComponent;
 import com.almasb.fxgl.physics.BoundingShape;
 import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
@@ -12,7 +13,7 @@ import com.almasb.fxgl.physics.box2d.dynamics.BodyType;
 public class FlashFactory implements EntityFactory {
 
     //-- Creates the maze Entity
-    @Spawns("maze")
+    @Spawns("platform")
     public Entity newMaze(SpawnData data){
         return Entities.builder()
                 .from(data)
@@ -29,9 +30,10 @@ public class FlashFactory implements EntityFactory {
         physics.setBodyType(BodyType.DYNAMIC);
         return Entities.builder()
                 .from(data)
-                .type(FlashType.SPEEDSTER)
-                .bbox(new HitBox(BoundingShape.box(85,95)))
+                .type(FlashType.FLASH)
+                .bbox(new HitBox(BoundingShape.box(658/16,49)))
                 .with(physics)
+                .with(new CollidableComponent(true))
                 .with(new FlashControl())
                 .build();
     }
@@ -42,15 +44,12 @@ public class FlashFactory implements EntityFactory {
         PhysicsComponent physics = new PhysicsComponent();
         physics.setBodyType(BodyType.DYNAMIC);
         return Entities.builder()
-                .type(FlashType.SPEEDSTER)
+                .type(FlashType.REVERSEFLASH)
                 .from(data)
-                .bbox(new HitBox(BoundingShape.box(120,130)))
+                .bbox(new HitBox(BoundingShape.box(673/7,50)))
                 .with(physics)
+                .with(new CollidableComponent(true))
                 .with(new ReverseFlashControl())
                 .build();
     }
-
-
-
-
 }
